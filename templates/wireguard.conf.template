@@ -1,0 +1,16 @@
+#!/bin/bash
+
+create_peer() {
+    echo ""
+    echo "# $PUBKEY" 
+    echo "[Peer]"
+    echo "PublicKey = $(wg pubkey < $PUBKEY)"
+    echo "AllowedIPs = $ADDRESS"
+}
+
+echo "[Interface]"
+echo "ListenPort = 51820"
+echo "PrivateKey = $(cat keys/wg.private)"
+
+## Example of createion peer 
+# PUBKEY="keys/user.private" ADDRESS="172.13.10.2/32" create_peer

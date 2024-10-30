@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "[Unit]"
+echo "Description=Laefye's Helper Wireguard Script"
+echo "After=network.target"
+echo "Wants=network-online.target"
+echo ""
+echo "[Service]"
+echo "Restart=always"
+echo "Type=simple"
+echo "ExecStart=$BIN"
+echo "Environment="
+echo ""
+echo "[Install]"
+echo "WantedBy=multi-user.target"
