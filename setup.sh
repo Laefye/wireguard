@@ -1,9 +1,10 @@
 #!/bin/bash
 
-# Параметры для установщика
+# Parameters
 DIST="/"
 INTERNET=ens3
 WG=wg0
+
 GATEWAY="172.13.10.1/24"
 
 CONFIG=$DIST"etc/laefye_wireguard"

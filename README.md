@@ -62,6 +62,10 @@ sudo systemctl start laefye-wireguard
 
 These commands ensure that WireGuard will start automatically on boot and can be managed as a standard service.
 
+## Configuration
+
+Some parameters (for example: output interface) can be easily changed in `setup.sh`
+
 ## Contributing
 
 Feel free to submit issues or make pull requests to improve this script.
