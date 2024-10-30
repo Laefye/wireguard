@@ -2,6 +2,8 @@
 
 This project provides a simple Bash script (`setup.sh`) to facilitate the setup, configuration, and management of WireGuard on Linux. The script automates the installation, uninstallation, and configuration update processes, making it easier to work with WireGuard for secure networking.
 
+And it greatly simplifies wireguard backups
+
 ## Features
 - **Installation**: Sets up the necessary configuration files.
 - **Uninstallation**: Completely removes the project and related files.
